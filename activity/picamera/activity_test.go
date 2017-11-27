@@ -1,4 +1,4 @@
-package HelloWorld2
+package picamera
 
 import (
 	"io/ioutil"
@@ -49,11 +49,10 @@ func TestEval(t *testing.T) {
 	tc := test.NewTestActivityContext(getActivityMetadata())
 
 	//setup attrs
-	tc.SetInput("name", "Leon")
-	tc.SetInput("salutation", "Hello")
+	tc.SetInput("timeExposition", 100)
 	act.Eval(tc)
 
-	//check result attr
-	result := tc.GetOutput("result")
-	assert.Equal(t, result, "The Flogo engine says Hello to Leon")
+	//check result is not empty
+	result := tc.GetOutput("file")
+	assert.NotEmpty(t, result)
 }

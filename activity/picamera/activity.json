@@ -1,0 +1,20 @@
+{
+  "name": "picamera",
+  "version": "0.0.1",
+  "ref": "github.com/lczupryn/flogotest/activity/picamera",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Lukasz Czupryniak <lczupryn@tibco.com>",
+  "inputs":[
+    {
+      "name": "timeExposition",
+      "type": "integer"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "file",
+      "type": "string"
+    }
+  ]
+}
