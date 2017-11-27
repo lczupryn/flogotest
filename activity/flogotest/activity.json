@@ -1,0 +1,24 @@
+{
+  "name": "HelloWorld2",
+  "version": "0.0.1",
+  "ref": "github.com/lczupryn/flogotest/activity/flogotest",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Your Name <you.name@example.org>",
+  "inputs":[
+    {
+      "name": "salutation",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
