@@ -1,6 +1,7 @@
 {
   "name": "HelloWorld2",
   "version": "0.0.1",
+  "ref": "github.com/lczupryn/flogotest",
   "type": "flogo:activity",
   "description": "activity description",
   "author": "Your Name <you.name@example.org>",
