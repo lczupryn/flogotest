@@ -19,7 +19,7 @@ const (
 	TIMEEXP    = "-t" //constant parameters for PI Camera for raspistill
 	OUTFLAG    = "-o" //constant parameters for PI Camera for raspistill
 	FILETYPE  = ".jpg" // filetype
-	TIMESTAMP = "2006-01-02_15:04:05" // timestamp
+	TIMESTAMP = "2006-01-02_15_04_05" // timestamp
 )
 
 // MyActivity is a stub for your Activity implementation
